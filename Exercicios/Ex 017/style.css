@@ -1,0 +1,12 @@
+
+
+
+h1 {
+    font: italic bolder 3em 'work sans', sans-serif;
+    /*font: font-style -> font-weight -> font-size -> font-family */
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
