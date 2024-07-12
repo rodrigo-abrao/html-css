@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudos de iframe</title>
+    <title>Form</title>
+    <style>
+        body > h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>testando o uso do iframe</h1>
-    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe> para aprender a programar</p>
+    <h1>Teste de form</h1>
+    <form action="cadastro.php" method="get">
+
+        <p>
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome"  required maxlength="30" placeholder="Nome completo">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="number" id="inumber" min="0" max="10" placeholder="0 a 10">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
 </body>
 </html>
